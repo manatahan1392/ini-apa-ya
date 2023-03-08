@@ -1,0 +1,45 @@
+/* Banner */
+.banner {
+display: flex;
+min-height: 90vh;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.banner .left, .banner .right {
+    width: 50%;
+}
+
+.fortofolio {
+    background-color: #D9D9D9;
+}
+
+.fortofolio h2{
+    color: #FFFF;
+    padding: 10%;
+}
+
+.fortofolio .cards .card{
+    padding: 10%;
+}
+/* responsive */
+
+
+/* small */
+@media only screen and (max-width: 576px) {
+}
+
+/* medium */
+@media only screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .banner .right, .banner .left{
+        width: 50%;
+    }
+}
+
+/* large */
+@media only screen and (max-width: 992px) {
+}
